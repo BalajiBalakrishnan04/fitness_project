@@ -16,3 +16,16 @@ let name= localStorage.getItem("username");
     localStorage.clear(); 
   
   })
+
+  
+let homenav=document.getElementById('homenav')
+function changeBg(){
+    
+    let scrollvalue= window.scrollY;
+    if(scrollvalue<120){
+        homenav.classList.remove('navbg');
+    }
+    else{
+        homenav.classList.add('navbg')
+    }
+}
