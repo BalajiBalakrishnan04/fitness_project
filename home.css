@@ -765,6 +765,7 @@
         position: absolute;
         top: 915px;
         left: 470px; 
+        right: 10px;
         font-size: 16px;
         font-weight: bold;
     } 
